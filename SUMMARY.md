@@ -1,3 +1,3 @@
 # Design Pattern For PHP
 
-* [Knowledge Base](chapter1.md)
+* [Knowledge Base](Base/README.md)
