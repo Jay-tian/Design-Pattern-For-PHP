@@ -4,4 +4,4 @@ UML(Unified Modeling Language)中文称为统一建模语言，本文主要介�
 
 ## 泛化关系(generalization)
 
-UML一般用
+UML一般用“泛化”(generalization)
