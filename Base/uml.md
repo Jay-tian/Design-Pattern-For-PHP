@@ -10,7 +10,7 @@ UML一般用“泛化”(generalization)来描述继承关系，这个关系用�
 
 ## 实现关系(realize)
 
-UML用“实现”(realize)来描述接口和实现接口的类之间的关系
+UML用“实现”(realize)来描述接口和实现接口的类之间的关系,实现关系用一条带空心箭头的虚线表示
 
 ## 关联关系(association)
 
