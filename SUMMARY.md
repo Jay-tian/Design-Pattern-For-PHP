@@ -8,5 +8,5 @@
 
 * [Creational Patterns](CreationalPattern/README.md)
 
-* [Behavioral Patterns](BehavioralPattern/README.md)
+* [Structural Patterns](BehavioralPattern/README.md)
 
