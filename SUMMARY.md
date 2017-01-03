@@ -8,6 +8,5 @@
 
 * [Behavioral Patterns](BehavioralPattern/README.md)
 
-
 * [Behavioral Patterns](BehavioralPattern/README.md)
 
