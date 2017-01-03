@@ -9,3 +9,4 @@ UML一般用“泛化”(generalization)来描述继承关系，这个关系用�
 ![](/Static/generalization.jpg)
 
 ## 实现关系(realize)
+UML用“实现”(realize)来描述接口和实现接口的类之间的关系
