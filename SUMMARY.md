@@ -6,7 +6,7 @@
 
 * [Behavioral Patterns](BehavioralPattern/README.md)
 
-* [Behavioral Patterns](BehavioralPattern/README.md)
+* [Creational Patterns](CreationalPattern/README.md)
 
 * [Behavioral Patterns](BehavioralPattern/README.md)
 
