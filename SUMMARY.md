@@ -7,6 +7,5 @@
     
 * [Creational Patterns](CreationalPattern/Singleton.md)
     * [1.1 单例模式](BehavioralPattern/singlePattern_.md)
-
 * [Structural Patterns](StructuralPattern/README.md)
 
