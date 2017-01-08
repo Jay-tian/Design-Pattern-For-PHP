@@ -8,7 +8,7 @@
         * [设计原则－开闭原则](Base/open.md)
         * [设计原则－里氏原则](Base/liskov.md)
         * [设计原则－接口脱离](Base/interface.md)
-        * [设计原则－控制翻转](Base/dependency.md)
+        * [设计原则－控制反转](Base/dependency.md)
 * [Behavioral Patterns](BehavioralPattern/README.md)
     * [1.1 观察者模式](BehavioralPattern/ObserverPattern.md)
 * [Creational Patterns](CreationalPattern/Singleton.md)
