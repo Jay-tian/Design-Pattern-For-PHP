@@ -22,6 +22,6 @@ UML用“实现”(realize)来描述接口和实现接口的类之间的关系,�
 
 ## 聚合关系(aggregation)和组合关系(composition)
 与关联很相似，聚合描述了一个类长期持有其他类的一个或多个实例的情况，被
-## 组合关系(composition)
+
 
 ## 依赖关系(dependency)
