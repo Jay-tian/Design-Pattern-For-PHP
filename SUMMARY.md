@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Knowledge Base](Base/README.md)
     * [UML类图简介](Base/uml.md)
-    * [面向对象设计原则](designPrinciples.md) 
+    * [面向对象设计原则](Base/designPrinciples.md) 
         * [设计原则－单一职责](single.md)
         * [设计原则－开闭原则](open.md)
         * [设计原则－里氏原则](liskov.md)
