@@ -9,8 +9,6 @@
         * [设计原则－里氏原则](liskov.md)
         * [设计原则－接口脱离](interface.md)
         * [设计原则－控制翻转](dependency.md)
-
-
 * [Behavioral Patterns](BehavioralPattern/README.md)
     * [1.1 观察者模式](BehavioralPattern/ObserverPattern.md)
 * [Creational Patterns](CreationalPattern/Singleton.md)
