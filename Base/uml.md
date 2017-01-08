@@ -20,7 +20,9 @@ UML用“实现”(realize)来描述接口和实现接口的类之间的关系,�
 事实上我们还可以用箭头来描述关联的方向，如果Teacher类拥有Student类的一个实例，但Student类没有Teacher类的实例，那么我们让关联箭头从Teacher类指向Student类这种关联称为单向关联
 ![](/assets/单向关联.jpg)
 
-## 聚合关系(aggregation)
+## 聚合关系(aggregation)和组合关系(composition)
+
+
 与关联很相似，聚合描述了一个类长期持有其他类的一个或多个实例的情况，被
 ## 组合关系(composition)
 
