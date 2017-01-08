@@ -17,6 +17,7 @@ UML用“实现”(realize)来描述接口和实现接口的类之间的关系,�
 当一个类的属性保存了对另一个类的实例(或多个实例)的引用时,就产生了关联，关系关系用直线来表示。如下图所示我们为Teacher类和Student类建立了模型，并创建了它们之间的关联
 ![](/assets/association.jpg)
 
+事实上我们还可以用箭头来描述关联的方向，如果Teacher类拥有Student类的一个实例，但Student类没有Teacher类的实例，那么我们让关联箭头从Teacher类指向Student类这种关联称为单向关联
 ## 聚合关系(aggregation)
 
 ## 组合关系(composition)
