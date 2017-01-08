@@ -1,4 +1,4 @@
-![](/assets/association.jpg)# 1.1 UML类图
+# 1.1 UML类图
 
 UML(Unified Modeling Language)中文称为统一建模语言，本文主要介绍类图中各个类之间的关系(泛化，实现，聚合等),和各个类之间线条和箭头所代表的含义其他具体请查看维基百科或其他资料。
 
@@ -11,12 +11,12 @@ UML一般用“泛化”(generalization)来描述继承关系，这个关系用�
 
 UML用“实现”(realize)来描述接口和实现接口的类之间的关系,实现关系用一条带空心箭头的虚线表示。因此如果ShopProduct类实现了Chargeable接口，那它们的关系就如下所示：
 
-
+![](/assets/realize.jpg)
 
 
 当一个类的属性保存了对另一个类的实例(或多个实例)的引用时,就产生了关联 我们可以用箭头来描述关联方向。
 
-![](/assets/association.jpg)
+
 
 ## 聚合关系(aggregation)
 
