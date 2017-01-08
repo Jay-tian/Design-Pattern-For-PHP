@@ -32,6 +32,6 @@ UML用“实现”(realize)来描述接口和实现接口的类之间的关系,�
 组合则是一个更强的关系，被包含对象只能被它的容器引用，当容器被删除时，它也应该被删除。组合关系一般用一条带实心菱形箭头直线表示
 ![](/assets/composition.jpg)
 
-Person类持有一个SocialSecurityData对象的引用
+Person类持有一个SocialSecurityData对象的引用，而该SocialSecurityData对象实例只属于包含它的Person类
 
 ## 依赖关系(dependency)
