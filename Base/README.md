@@ -5,7 +5,7 @@
 * [基础知识](README.md)
     * [UML类图简介](uml.md)
     * [面向对象设计原则]() 
-        * [设计原则－单一职责](Base/single.md)
+        * [设计原则－单一职责](single.md)
 * [Behavioral Patterns](BehavioralPattern/README.md)
 * [1.1 观察者模式](BehavioralPattern/ObserverPattern.md)
 * [Creational Patterns](CreationalPattern/Singleton.md)
