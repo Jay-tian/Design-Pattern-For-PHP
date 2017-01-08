@@ -40,4 +40,5 @@ Person类持有一个SocialSecurityData对象的引用，而该SocialSecurityDat
 ![](/assets/dependency.jpg)
 
 Report类使用了ShopProductWriter对象
+
 注：在最终代码中，依赖关系体现为类构造方法及类方法的传入参数，箭头的指向为调用关系；依赖关系除了临时知道对方外，还是“使用”对方的方法和属性；
