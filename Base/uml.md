@@ -4,9 +4,8 @@ UML(Unified Modeling Language)中文称为统一建模语言，本文主要介�
 
 ## 泛化关系(generalization)
 
-UML一般用“泛化”(generalization)来描述继承关系，这个关系用从子类到父类的一条线来标志性，线的顶端有一个空心闭合箭头,如下图所示描述的是A继承B
-
-
+UML一般用“泛化”(generalization)来描述继承关系，这个关系用从子类到父类的一条线来标志性，线的顶端有一个空心闭合箭头,下图所示描述的是A继承B
+![](/assets/generalization.jpg)
 
 ## 实现关系(realize)
 
