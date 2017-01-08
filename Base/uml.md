@@ -35,3 +35,4 @@ UML用“实现”(realize)来描述接口和实现接口的类之间的关系,�
 Person类持有一个SocialSecurityData对象的引用，而该SocialSecurityData对象实例只属于包含它的Person类
 
 ## 依赖关系(dependency)
+一个对象使用另一个对象的关系被描述为一个依赖关系，依赖关系由一条连接俩个类的实线和开放箭头表示
