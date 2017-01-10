@@ -5,8 +5,10 @@
 ## 2.模式结构
 观察者模式包含以下角色:
 
-Subject:
+Subject(目标):
 
-ConcreteSubject：
+ConcreteSubject(具体目标)：
 
-Observer
+Observer(观察者):
+
+ConcreteObserver(具体观察者):
