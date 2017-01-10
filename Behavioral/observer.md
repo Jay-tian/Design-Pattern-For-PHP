@@ -7,4 +7,6 @@
 
 Subject:
 
-ConcreteSubject
+ConcreteSubject：
+
+Observer
