@@ -12,3 +12,5 @@ ConcreteSubject(具体目标)：
 Observer(观察者):
 
 ConcreteObserver(具体观察者):
+
+![](/assets/observer.jpg)
