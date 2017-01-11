@@ -14,3 +14,7 @@ Observer(观察者):
 ConcreteObserver(具体观察者):
 
 ![](/assets/observer.jpg)
+
+##优点
+
+##缺点
