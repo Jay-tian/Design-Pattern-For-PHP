@@ -7,7 +7,7 @@
         * [设计原则－单一职责](Base/single.md)
         * [设计原则－开闭原则](Base/open.md)
         * [设计原则－里氏原则](Base/liskov.md)
-        * [设计原则－接口脱离](Base/interface.md)
+        * [设计原则－接口隔离](Base/interface.md)
         * [设计原则－控制反转](Base/dependency.md)
 * [BehavioralPatterns](Behavioral/README.md)
     * [观察者模式](Behavioral/observer.md)
