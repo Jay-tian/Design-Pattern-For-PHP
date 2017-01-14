@@ -5,14 +5,9 @@
     "language": "zh",
     "plugins": [
         "prism",
-        "-highlight",
-         "simple-page-toc",
-         "navigator"
+        "-highlight"
     ],
     "pluginsConfig": {
-        "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
-       }
+       
     }
 }
