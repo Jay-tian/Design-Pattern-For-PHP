@@ -1,2 +1,2 @@
 # 设计原则－接口隔离
-接口隔离原则(Interface Segregation Principles)
+接口隔离原则(Interface Segregation Principles):客户端不应该被迫依赖于它不使用方法。接口隔离原则指导我们拆分非常庞大臃肿的接口成为更小的和更具体的接口，这样客户将会只需要知道他们感兴趣的方法。

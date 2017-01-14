@@ -1,3 +1,18 @@
 {
-
+    "title" : "Design Pattern For PHP",
+    "description" : "php设计模式学习总结",
+    "author" : "Iron1794",
+    "language": "zh",
+    "plugins": [
+        "prism",
+        "-highlight",
+         "simple-page-toc",
+         "navigator"
+    ],
+    "pluginsConfig": {
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+       }
+    }
 }
