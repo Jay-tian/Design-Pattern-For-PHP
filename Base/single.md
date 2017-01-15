@@ -7,15 +7,26 @@
 举个例子，现在要创建一个用于读写配置文件的类
 
 ``` php
-class index
+class FileParamsToolkit
 {
     public function readParams($sourceFile)
     {
+        //从sourceFile中读取文本参数
     }
     
     public function writeParams($params, $sourceFile)
     {
+        //将参数写入sourceFile中
     }
+}
+```
+好了，一切看起来似乎都非常完美，直到有一天，我们被告知我们这个只能读取文本参数的类不能满足需求了，产品经理希望它还能读取xml格式的参数。。。
+
+于是你就改吧改吧代码又变成下面这个样子：
+
+```php
+public function readParams($sourceFile)
+{
 }
 ```
 
