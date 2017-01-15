@@ -7,10 +7,11 @@
 如何分配职责也是面向对象编程和面向过程编程的核心区别，现在系统需要读取某一格式的文件并把它写入其它文件中，如果是面向过程式的思维，那么代码大概长的是下面这个样子:
 
 ``` php
-public function index()
+public function DataTransfer()
 {
+    readFileData();
+    write()
 }
-
 ```
 
 
