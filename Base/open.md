@@ -33,6 +33,9 @@ public function readParams($sourceFile)
 在上面的例子中每当需要支持新的格式文件的参数读取时就得更改readParams的源码
 
 ```php
+class ParamHandler
+{
+}
 interfact ParamHandler
 {
     public function readParams();
