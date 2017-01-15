@@ -35,6 +35,9 @@ public function readParams($sourceFile)
 ```php
 class ParamHandler
 {
+    public function readParams()
+    {
+    }
 }
 
 interfact ParamHandler
