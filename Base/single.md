@@ -12,6 +12,10 @@ class index
     public function readParams($sourceFile)
     {
     }
+    
+    public function writeParams($params, $sourceFile)
+    {
+    }
 }
 ```
 
