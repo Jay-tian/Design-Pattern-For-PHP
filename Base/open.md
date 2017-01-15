@@ -5,7 +5,8 @@
 举个例子，现在要创建一个用于读取配置文件的类
 
 ``` php
-class FileParams
+class ParamsHandler
+
 {
     public function readParams($sourceFile)
     {
@@ -52,6 +53,8 @@ class YmlParamHandler implement ParamHandler
     //读取yml文件参数
     }
 }
+
+
 
 ```
 这样一来
