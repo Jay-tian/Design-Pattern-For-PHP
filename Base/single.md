@@ -7,7 +7,7 @@
 举个例子，现在要创建一个用于读写配置文件的类
 
 ``` php
-class FileParamsToolkit
+class FileParams
 {
     public function readParams($sourceFile)
     {
@@ -34,7 +34,7 @@ public function readParams($sourceFile)
     }
 }
 ```
-现在似乎又再次满足了需求，然而还没等我们松口气，产品说他希望我们还能支持yml格式的文件。。。这时候回过头研究一下代码，就会发现正是因为上面的代码没有遵守单一原则导致代码越来越难以维护，如果我们把上面的功能拆封到不同的类之中。。。
+现在似乎又再次满足了需求，然而还没等我们松口气，产品说他希望我们还能支持yml格式的文件。。。这时候回过头研究一下代码，就会发现正是因为上面的代码其实没有遵守单一原则导致代码越来越难以维护，如果我们把上面的功能拆封到不同的类之中。。。
 
 ```php
 interfact ParamHandler
@@ -52,8 +52,13 @@ class XmlParamHandler implement ParamHandler
 
 class YmlParamHandler implement ParamHandler
 {
+   public function readParams()
+    {
+    //读取yml文件参数
+    }
 }
 
 ```
+这样一来
 
 
