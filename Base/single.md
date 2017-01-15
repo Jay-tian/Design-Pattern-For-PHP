@@ -27,7 +27,33 @@ class FileParamsToolkit
 ```php
 public function readParams($sourceFile)
 {
+    if (preg_match("/\.xml$/i", $sourceFile)) {
+        //读取xml文件参数
+    } else {
+        //读取文本参数
+    }
 }
+```
+现在似乎又再次满足了需求，然而还没等我们松口气，产品说他希望我们还能支持yml格式的文件。。。这时候回过头研究一下代码，就会发现正是因为上面的代码没有遵守单一原则导致代码越来越难以维护，如果我们把上面的功能拆封到不同的类之中。。。
+
+```php
+interfact ParamHandler
+{
+    public function readParams();
+}
+
+class XmlParamHandler implement ParamHandler
+{
+    public function readParams()
+    {
+    //读取xml文件参数
+    }
+}
+
+class YmlParamHandler implement ParamHandler
+{
+}
+
 ```
 
 
