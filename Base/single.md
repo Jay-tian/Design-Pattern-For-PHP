@@ -37,7 +37,9 @@ class ShopProductService
 
 class ShopProductDao()
 {
-    
+    public function findAppProducts()
+    {
+    }
 }
 
 class DbDiver()
