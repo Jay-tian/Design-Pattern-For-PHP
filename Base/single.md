@@ -34,6 +34,10 @@ class ShopProductService
         return $shopProductDao
     }
 }
+
+class ShopProductDao()
+{
+}
 ```
 
 
