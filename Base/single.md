@@ -10,6 +10,8 @@ class ShopProduct
     public function findAllProducts()
     {
         $conn = $this->getConnection();
+        $sql = "";
+        
     }
     
     public function getConnection() 
