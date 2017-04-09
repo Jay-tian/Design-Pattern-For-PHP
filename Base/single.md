@@ -11,7 +11,7 @@ class ShopProduct
     {
         $conn = $this->getConnection();
         $sql = "";
-        
+        $conn->query($sql);
     }
     
     public function getConnection() 
