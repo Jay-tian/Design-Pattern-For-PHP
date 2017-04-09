@@ -75,7 +75,7 @@ class YmlParamHandler implement ParamHandler
 }
 
 ```
-这样一来
+这样一来，我们需要扩展新的文件类型时，就不要更改现有的代码，只需要新增这个类型的处理类即可。
 
 
 
