@@ -9,6 +9,7 @@ class ShopProduct
 {
     public function findAllProducts()
     {
+        $this->getConnection();
     }
     
     public function getConnection() 
