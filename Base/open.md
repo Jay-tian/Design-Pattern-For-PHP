@@ -48,7 +48,7 @@ class ParamHandler
 {
     public function readParams()
     {
-        //根据不同文件类型实例话
+        //根据不同文件类型实例化
     }
 }
 
