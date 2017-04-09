@@ -26,7 +26,9 @@ public function readParams($sourceFile)
     }
 }
 ```
-新版本上线刚不久，客户又反馈说，yml格式的文件更利于他们维护希望我们也能支持读取yml格式的文件
+新版本上线刚不久，客户又反馈说，yml格式的文件更利于他们维护希望我们也能支持读取yml格式的文件。
+
+由此我们可以看出，产品的功能是会随着时间的推移发生改变的
 
 ```php
 class ParamHandler
