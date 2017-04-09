@@ -37,6 +37,7 @@ class ShopProductService
 
 class ShopProductDao()
 {
+    
 }
 ```
 
