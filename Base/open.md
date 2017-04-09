@@ -49,7 +49,7 @@ class ParamHandler
 {
     public function readParams()
     {
-        //根据不同文件类型实例化
+        //由客户端决定实例化的类型
     }
 }
 
