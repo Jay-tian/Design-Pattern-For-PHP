@@ -28,7 +28,7 @@ public function readParams($sourceFile)
 ```
 新版本上线刚不久，客户又反馈说，yml格式的文件更利于他们维护希望我们也能支持读取yml格式的文件。
 
-由此我们可以看出，产品的功能是会随着时间的推移发生改变的
+由此我们可以看出，产品的功能是会随着时间的推移发生改变的，如果我们的代码和上述例子一样，需要进行扩展时就会不得不继续修改代码。
 
 ```php
 class ParamHandler
@@ -63,7 +63,6 @@ class YmlParamHandler implement ParamHandler
 
 
 ```
-这样一来
 
 
 
