@@ -19,7 +19,17 @@ class ShopProduct
     }
 }
 ```
-上述例子是一个很经典的例子，ShopProduct类不符合单一职责，因为它承担了过多的职责，如果其他类也需要连接数据库，或者是数据库的连接方式发生改变都需要改变这个类，因此需要对这个类进行拆分，使其满足单一职责
+上述例子是一个很经典的例子，ShopProduct类不符合单一职责，因为它承担了过多的职责，如果其他类也需要连接数据库，或者是数据库的连接方式发生改变都需要改变这个类，因此需要对这个类进行拆分，使其满足单一职责。
+
+```php
+class ShopProductService
+{
+    public function findAllProducts()
+    {
+        return $this->getShopProductDao()->findAppProducts();
+    }
+}
+```
 
 
 
