@@ -26,9 +26,7 @@ public function readParams($sourceFile)
     }
 }
 ```
-现在似乎又再次满足了需求，然而还没等我们松口气，产品说他希望我们还能支持yml格式的文件。。。
-
-在上面的例子中每当需要支持新的格式文件的参数读取时就得更改readParams的源码
+新版本上线刚不久，客户又反馈说，yml格式的文件更利于他们维护希望我们也能支持读取yml格式的文件
 
 ```php
 class ParamHandler
