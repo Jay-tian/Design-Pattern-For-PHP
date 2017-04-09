@@ -28,6 +28,11 @@ class ShopProductService
     {
         return $this->getShopProductDao()->findAppProducts();
     }
+    
+    protected function getShopProductDao()
+    {
+        return $shopProductDao
+    }
 }
 ```
 
