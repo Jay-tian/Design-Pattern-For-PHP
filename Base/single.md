@@ -31,13 +31,17 @@ class ShopProductService
     
     protected function getShopProductDao()
     {
-        return $shopProductDao
+        return new shopProductDao()
     }
 }
 
 class ShopProductDao()
 {
     
+}
+
+class DbDiver()
+{
 }
 ```
 
