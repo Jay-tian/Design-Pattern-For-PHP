@@ -10,6 +10,10 @@ class ShopProduct
     public function findAllProducts()
     {
     }
+    
+    public function getConnection() 
+    {
+    }
 }
 ```
 
