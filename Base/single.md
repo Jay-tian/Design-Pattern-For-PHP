@@ -42,6 +42,9 @@ class ShopProductDao()
 
 class DbDiver()
 {
+    public function connet()
+    {
+    }
 }
 ```
 
